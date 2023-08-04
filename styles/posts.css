@@ -1,0 +1,55 @@
+* {margin: 0; padding: 0; }
+
+
+body {font-family: Arial, Helvetica, Sans-serif; }
+header {display: block;  background-color: #3cbc8d; border-bottom: 5px solid #757575;}
+header#admin{background-color: blueviolet;}
+h1 {font-weight: normal; padding: 0.5em; color: white; text-shadow: 1px 1px 0px #444;  text-align: center; width: 1000px; margin: auto;}
+img {width: 128px; margin: auto; padding-right: 30px;}
+
+nav {background-color: #443A5C;}
+
+a {text-decoration: none;}
+nav a {color: white; text-decoration: none;}
+nav a:hover {color: #ddd;}
+nav ul {display: table; width: 1000px; margin: auto;}
+nav li {display: table-cell; text-align: center; padding: 1em;}
+
+main {overflow: auto; min-height: 30vh; background-color: #f7f7f7; width: 1000px; margin: auto; box-shadow: -1000px 0 0 #f7f7f7, 1000px 0 0 #f7f7f7; padding-top: 20px;}
+
+footer {padding: 1em; background-color: #FFC9A7 ; font-size: 0.8em;}
+
+p {margin-bottom: 1em;}
+hr {margin:0em;}
+
+body {font-size: 1.2em; font-family: arial, helvetica, sans-serif}
+input, label, select, textarea {float: left; width: 15em; margin-bottom: 1em;  padding: 0.5em;}
+label {clear: left; padding: 0; margin: 0;}
+input[type="submit"] {margin-left: 15em; margin-top: 0.5em; width: auto; padding: 0.5em 1em; clear: both; font-size: 1em; border-radius:6px; background-color: rgb(233, 232, 232); border-width: 1px;}
+input[type="submit"]:hover {background-color: rgb(191, 200, 230);}
+input[type="submit"].delete:hover {background-color: rgb(211, 60, 60); color:white}
+input[type="text"] {height:1.8em; width:7em;}
+form {overflow: auto; clear: both; display: block;}
+
+
+blockquote {display: table; margin-bottom: 0em; border-bottom: 2px solid #ccc; padding: 0.5em; }
+blockquote:hover {background-color:rgb(218, 230, 248); }
+blockquote p {display: table-cell; width: 70%; vertical-align: top;}
+blockquote form {  display: table-cell; width: 10%;}
+.reply {margin-left:3em; border-left:2px solid #ccc;}
+
+.errors {padding: 1em; border: 1px solid red; background-color: lightyellow; color: red; margin-bottom: 1em; overflow: auto;}
+.errors ul {margin-left: 1em;}
+
+form p {clear: both;}
+input[type="checkbox"] {float: left; clear: left; width: auto; margin-right: 10px;}
+input[type="checkbox"] + label {clear: right;}
+
+.jokelist {display: table;}
+.categories {display: table-cell; width: 20%; background-color: #333; padding: 1em; list-style-type: none;}
+.categories a {color: white; text-decoration: none;}
+.categories li {margin-bottom: 1em;}
+.jokelist .jokes {display: table-cell; padding: 1em;}
+
+.currentpage:before { content: "["; }
+.currentpage:after { content: "]"; }
