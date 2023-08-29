@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-		<h1><image class="logo" src="images/favicon.png" alt="logo">Student Help Forum</h1>
+		<h1><image class="logo" src="images/favicon.png" alt="logo">Student Support Forum</h1>
 	</header>
 	<nav>
 	<ul>
